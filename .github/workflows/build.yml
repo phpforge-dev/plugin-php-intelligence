@@ -13,3 +13,9 @@ jobs:
       - run: npm test
       - run: npm run build
       - run: git diff --exit-code main.js workbench.js
+  native:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v6
+      - uses: dtolnay/rust-toolchain@stable
+      - run: cargo test --manifest-path native/Cargo.toml --locked

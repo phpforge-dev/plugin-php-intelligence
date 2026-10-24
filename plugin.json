@@ -13,6 +13,7 @@
   "permissions": [
     "project.read",
     "project.write",
+    "process",
     "workbench"
   ],
   "workbench": {
