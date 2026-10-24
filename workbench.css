@@ -13,3 +13,10 @@
 .php-gutter-implemented,.php-gutter-subclassed{background:var(--ij-gutter-green)}.php-gutter-implemented::before,.php-gutter-subclassed::before{content:'↓'}
 .php-gutter-both{background:linear-gradient(135deg,var(--ij-gutter-blue) 50%,var(--ij-gutter-green) 50%)}.php-gutter-both::before{content:'↕'}
 .php-hierarchy-menu .usages-results{min-height:0}
+
+/* Feature styles formerly supplied by the host shell. */
+.php-unused-symbol{opacity:.55}
+.refactor-toast{background:var(--ij-popup);border:1px solid var(--ij-popup-border);border-radius:var(--ij-popup-radius);box-shadow:var(--ij-shadow);color:var(--ij-text)}
+.refactor-dialog .refactor-footer{background:var(--ij-popup-footer);color:var(--ij-popup-footer-text);height:auto;border-color:var(--ij-popup-border)}
+.refactor-dialog{background:var(--ij-dialog);border:1px solid var(--ij-popup-border);border-radius:var(--ij-popup-radius);box-shadow:var(--ij-shadow)}
+.refactor-file>label[aria-selected=true],.refactor-occurrence:hover{background:var(--ij-selection);border-radius:var(--ij-tab-radius)}

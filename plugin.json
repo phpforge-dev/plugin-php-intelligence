@@ -1,7 +1,7 @@
 {
   "id": "phpforge.php-intelligence",
   "name": "PHP Intelligence",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minIdeVersion": "0.2.13",
   "main": "main.js",
   "description": "PHP semantic navigation, local types, hierarchy, inspections and refactorings.",
