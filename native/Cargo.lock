@@ -2211,6 +2211,8 @@ dependencies = [
 name = "phpforge-php-intelligence"
 version = "1.0.0"
 dependencies = [
+ "dunce",
+ "flate2",
  "libc",
  "serde_json",
  "sha2",

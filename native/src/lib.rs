@@ -1,3 +1,4 @@
+pub mod php_stubs;
 mod rpc;mod workspace;mod git;
 use crate::{
     git::s,
